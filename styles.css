@@ -1,0 +1,62 @@
+body {
+	background: black;
+	font-family: "Raleway", sans-serif;
+	font-family: "Tiro Devanagari Marathi", serif;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+h1 {
+	width: 500px;
+	margin: 0%;
+	padding-top: 5px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left {
+	padding: 10px;
+	font-size: 10pt;
+}
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px gray solid;
+}
+.postcard-footer {
+	text-align: center;
+	padding: auto;
+}
+button {
+	padding: 2px 5px;
+	font-size: 12pt;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: black;
+	background-color: darkgray;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 9px #999;
+}
+button:active {
+	background-color: rgb(141, 140, 140);
+	box-shadow: 0 2px #666;
+	transform: translateY(4px);
+}
